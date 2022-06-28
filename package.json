@@ -1,0 +1,37 @@
+{
+  "name": "reactaccount",
+  "version": "1.0.0",
+  "description": "Created with CodeSandbox",
+  "scripts": {
+    "glogin": "clasp login --no-localhost",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --title 'React Test Project' --rootDir ./apps-script",
+    "gclone": "clasp clone 1jCm9c7ZkvEHTQHUpkJ-zCQdGYxJGn6PK3U6px6hIM9YEHk4fsjr8UFP3 --rootDir ./apps-script",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
+    "start": "parcel src/index.html --dist-dir ./apps-script",
+    "build": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webvarghese/reactAccount.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webvarghese/reactAccount/issues"
+  },
+  "homepage": "https://github.com/webvarghese/reactAccount#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@parcel/transformer-sass": "^2.5.0",
+    "@types/google-apps-script": "^1.0.47",
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
