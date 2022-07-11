@@ -1,12 +1,12 @@
 {
-  "name": "reactaccount",
+  "name": "rrcollection",
   "version": "1.0.0",
   "description": "Created with CodeSandbox",
   "scripts": {
     "glogin": "clasp login --no-localhost",
     "glogout": "clasp logout",
     "gcreate": "clasp create --title 'React Test Project' --rootDir ./apps-script",
-    "gclone": "clasp clone 1jCm9c7ZkvEHTQHUpkJ-zCQdGYxJGn6PK3U6px6hIM9YEHk4fsjr8UFP3 --rootDir ./apps-script",
+    "gclone": "clasp clone 1iJbpJP4U4ejDUEvoxlmBp-BtDAFhauR0Yjfjns5qqNClAGYe9LZqIao_ --rootDir ./apps-script",
     "gpull": "clasp pull",
     "gpush": "clasp push",
     "gstart": "clasp push --watch",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webvarghese/reactAccount.git"
+    "url": "git+https://github.com/webvarghese/rrcollection.git"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,27 @@
+.MessageBox{
+    position: absolute;
+    display: contents;
+    .msgBox{
+        position :absolute;
+        z-index: 2;
+        height: 50vh;
+        width:70vw;
+        border-radius: .5rem;
+        padding:3vh 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .add{
+    background: lightgreen;
+   }
+   .update{
+    background: lightblue;
+   }
+   .delete{
+    background: lightcoral;
+   }
+   h4{
+    font-size: 2rem;
+   }
+  }

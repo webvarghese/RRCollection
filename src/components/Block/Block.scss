@@ -1,0 +1,106 @@
+.BlockBox{
+    position :absolute;
+    height: 50vh;
+    width:70vw;
+    background: burlywood;
+    border-radius: .5rem;
+    padding:3vh 2vw;
+
+    .heading {
+        display: flex;
+        height: 5vh;
+        justify-content: center;
+        align-items: center;
+      }
+      .saveBox{
+        height: 5vh;
+        display: flex;
+        flex-direction: column;
+        gap:1vh;
+        justify-content: space-between; 
+        padding:1vw 1vh;
+        border: 1px solid bisque;   
+      }
+      .inputGroup{
+        height: 2vh;
+        display:flex;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+      }
+      .inputItem{
+        height:2vh;
+        max-width: 14vw;
+        font-size: 1vw;
+        gap: 1vw;
+        border-radius: .5vh;
+        border-style: none;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      label{
+        font-size: 1vw;
+        display: flex;
+        flex-direction: column;
+        gap:.5vh;
+      }
+      .buttonGroup{
+        height: 2vh;
+        display:flex;
+        justify-content:flex-end;
+        gap:2vw;
+      }
+      .btn {
+        height:2vh;
+        width: 5vw;
+        font-size: 1.5vh;
+        border:0;
+        border-radius: .5vh;
+        border-style: none;
+        cursor: pointer;
+      }
+      p{
+        font-size: 1vw;
+        margin:1vh;
+      }
+      .tableBox{
+        margin-top: 2vh;
+        height:32vh;
+        display: flex;
+        flex-direction: column;
+        gap:1vh;
+        overflow: auto;
+      }
+      .displayGroup{
+        display :flex;
+        flex-direction: row;
+        background-color: bisque;
+        height: 3vh;
+        border-radius: .5vh;
+        border-style: none;
+        cursor: pointer;
+      }
+      .btnAdd{
+        background: lightgreen;
+      }
+      .btnUpdate{
+        background: lightblue;
+      }
+      .btnClear{
+        background: yellow;
+      }
+      .btnDelete{
+        background: lightcoral;
+      }
+      .closeBtn{
+        position: absolute;
+        right:3vw;
+        cursor:pointer;
+        &:hover{
+          color:red;
+        }
+      }
+  }

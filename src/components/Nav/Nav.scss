@@ -1,0 +1,24 @@
+.Nav{
+    position: absolute;
+    top:20vh;
+    left:1vw;
+    background:burlywood;
+    list-style-type: none;
+    height:5vh;
+    font-size: 0;
+    cursor:pointer;
+    padding:1vw;
+
+    &:hover{
+        height:max-content;
+        width:fit-content;
+        font-size: 1rem;
+    }
+    .tablet{
+        color:grey;
+        &:hover{
+            color: lightseagreen;
+        }
+    }
+    
+}

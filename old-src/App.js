@@ -1,6 +1,5 @@
 // import Login from "./components/Login";
-import MainBox from "./components/MainBox/MainBox";
-
+import MainSheet from "./components/MainSheet/MainSheet.jsx";
 import { useState } from "react";
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   const logged = (log) => {
     setAuth(log);
   };
-  return <>{auth ? <MainBox /> : <Login logged={logged} />}</>;
+  return <>{auth ? <MainSheet /> : <Login logged={logged} />}</>;
 }
 
 export default App;
